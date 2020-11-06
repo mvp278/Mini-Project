@@ -1,0 +1,98 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url("mvd.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+table{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    margin-top: 34px;
+}
+
+button{
+    color: yellow;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(101, 159, 206);
+}
+
+.rate{
+    background-color: rgb(16, 133, 230);
+}
+
+.pr{
+    font-size: 17px;
+    color: white;
+}
+
+.search{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    height: 25px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 300px;
+}
+
+.inp{
+    border: none;
+    outline: none;
+    background: none;
+    float:left;
+    padding: 0 10px;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s all;
+    line-height: 25px;
+    widows: 50px;
+    widows: 200px;
+}
+
+.sbt{
+    color: grey;
+    float: right;
+    width: 40px;
+    margin-top: 5px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 0;
+}
+ 
+.zoom:hover {
+    transform: scale(1.2);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.nxt{
+    text-align: center;
+    color: yellow;
+    width: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 125px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

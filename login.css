@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("mcu.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sif{
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.sif h1{
+    color: royalblue;
+    margin-bottom: 30px;
+}
+
+.inb{
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid grey;
+    outline: none;
+}
+
+button {
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(16, 133, 230);
+}
+ .sib{
+     background-color: royalblue;
+ }
+
+ img{
+     width: 60px;
+     margin-top: -25px;
+ }
